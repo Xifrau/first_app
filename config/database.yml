@@ -3,18 +3,18 @@
 # Examples for PostgreSQL and SQLite3 can be found at the end.
 
 production:
-  adapter: mysql2
-  database: first_app 
-  host: localhost
-  username: first_app
-  password: passwd
-  encoding: utf8
+adapter: mysql2
+database: first_app 
+host: localhost
+username: first_app
+password: passwd
+encoding: utf8
 
-development:                                                                                                         
-  adapter: mysql2                                                                                                    
-  database: first_app                                                                                                
-  host: localhost                                                                                                    
-  username: first_app                                                                                                
-  password: passwd                                                                                                   
-  encoding: utf8                                                                                                     
-                  
+development: 
+adapter: mysql2
+database: first_app
+host: localhost
+username: first_app
+password: passwd 
+encoding: utf8 
+
